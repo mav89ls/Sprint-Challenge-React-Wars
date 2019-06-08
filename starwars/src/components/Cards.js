@@ -23,18 +23,6 @@ const Cards = ({ data }) => {
       <p className="listItem">
         <strong>Date of Birth</strong>:{data.birth_year}
       </p>
-      <p className="listItem">
-        <strong>Species</strong>:{data.species}
-      </p>
-      <p className="listItem">
-        <strong>Edited</strong>:{data.edited}
-      </p>
-      <p className="listItem">
-        <strong>Created</strong>:{data.created}
-      </p>
-      <p className="listItem">
-        <strong>URL</strong>:{data.url}
-      </p>
     </div>
   );
 };
