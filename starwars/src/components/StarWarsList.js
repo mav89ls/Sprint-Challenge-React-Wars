@@ -4,7 +4,7 @@ import "./StarWars.css";
 
 const StarWarsLists = ({ data }) => {
   return (
-    <div className="cardlist">
+    <div className="card-list">
       {data.map((item, index) => {
         return <Cards index={index} key={index} data={item} />;
       })}

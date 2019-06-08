@@ -4,23 +4,23 @@ import "./StarWars.css";
 const Cards = ({ data }) => {
   return (
     <div className="cards">
-      <h2 className="title">{data.name}</h2>
-      <p className="listItem">
+      <h2 className="character-name">{data.name}</h2>
+      <p className="facts">
         <strong>Gender</strong>:{data.gender}
       </p>
-      <p className="listItem">
+      <p className="facts">
         <strong>Hair Color</strong>:{data.hair_color}
       </p>
-      <p className="listItem">
+      <p className="facts">
         <strong>Eye Color</strong>:{data.eye_color}
       </p>
-      <p className="listItem">
+      <p className="facts">
         <strong>Height</strong>:{data.height}
       </p>
-      <p className="listItem">
+      <p className="facts">
         <strong>Skin Color</strong>:{data.skin_color}
       </p>
-      <p className="listItem">
+      <p className="facts">
         <strong>Date of Birth</strong>:{data.birth_year}
       </p>
     </div>
