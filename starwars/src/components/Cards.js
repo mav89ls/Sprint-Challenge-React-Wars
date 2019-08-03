@@ -5,6 +5,7 @@ const Cards = ({ data }) => {
   return (
     <div className="cards">
       <h2 className="character-name">{data.name}</h2>
+
       <p className="facts">
         <strong>Gender</strong>:{data.gender}
       </p>
